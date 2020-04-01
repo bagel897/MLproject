@@ -141,7 +141,7 @@ out
 gen
 
 !.idea
-!/manage.py
+
 .idea/.gitignore
 .idea/dataSources.xml
 .idea/dataSources/
@@ -149,10 +149,5 @@ gen
 .idea/misc.xml
 .idea/runConfigurations/
 .idea/vcs.xml
-MLproject/__init__.py
-MLproject/settings.py
-MLproject/urls.py
-manage.py
 templates/
-!/MLproject/settings.py
 /venv/
