@@ -28,6 +28,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+venv
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -138,3 +139,20 @@ dmypy.json
 *.iml
 out
 gen
+
+!.idea
+!/manage.py
+.idea/.gitignore
+.idea/dataSources.xml
+.idea/dataSources/
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/runConfigurations/
+.idea/vcs.xml
+MLproject/__init__.py
+MLproject/settings.py
+MLproject/urls.py
+manage.py
+templates/
+!/MLproject/settings.py
+/venv/
